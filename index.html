@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>iNeuron</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./assets/ineuron-logo-white.png" alt="logo" />
+      </div>
+      <ul class="list">
+        <li class="list-item">
+          <a class="more" href="#">Courses</a>
+          <div class="dropdown-container">
+            <div class="dropdown">
+              <div id="dropdown-content">
+                <h4>Data Science</h4>
+                <ul>
+                  <li>Full Stack Data Science</li>
+                  <li>Machine Learning</li>
+                  <li>Deep Learning</li>
+                  <li>NLP</li>
+                </ul>
+              </div>
+              <div id="dropdown-content">
+                <h4>Web Development</h4>
+                <ul>
+                  <li>JavaScript</li>
+                  <li>Node JS</li>
+                  <li>CSS</li>
+                  <li>React</li>
+                </ul>
+              </div>
+              <div id="dropdown-content">
+                <h4>Blockchain Development</h4>
+                <ul>
+                  <li>NFT</li>
+                  <li>Solidity</li>
+                  <li>WEB 3.0</li>
+                  <li>Solidity</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-item"><a href="#">Blog</a></li>
+        <li class="list-item"><a href="#">Company</a></li>
+      </ul>
+      <div class="nav-button">
+        <button id="btn-1">Sign up</button>
+        <button id="btn-2">Sign in</button>
+      </div>
+    </nav>
+    <section aria-label="Hero-Section">
+      <div class="hero-container">
+        <div class="hero-left">
+          <h1>
+            Highest in <span>quality</span>,<br />
+            <span>affordable</span> in price
+          </h1>
+          <div class="search-bar">
+            <i class="fa fa-search"></i>
+            <input
+              class="search-input"
+              type="text"
+              placeholder="What do you want to learn ?"
+            />
+            <i class="fa fa-arrow-right submit"></i>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="./assets/model hero.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section aria-label="Banner">
+      <div class="banner-container">
+        <img src="./assets/hero-influencers1.png" alt="" />
+        <div>
+          <h1>Learn from the <span>best</span> of industry</h1>
+          <p>
+            Digital entrepreneurs, Youtubers and content creators provide
+            affordable courses across technologies.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section aria-label="Cards ">
+      <div class="hero-card">
+        <h1>What you will <span>learn</span></h1>
+        <div>
+          <ul class="card-nav">
+            <li id="card-nav-active"><a href="#">Live Programs</a></li>
+            <li><a href="#">Affordable Programs</a></li>
+            <li><a href="#">Community Programs</a></li>
+            <li><a href="#">Test Series</a></li>
+          </ul>
+          <div class="card">
+            <img src="./assets/course-1.jpg" alt="" />
+            <h4>DSA for FAANG preparation with Python and JavaScript</h4>
+
+            <div>
+              <p>Anurag Tiwari</p>
+              <p>₹4000</p>
+              <span>live</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/course-2.jpg" alt="" />
+            <h4>Full Stack Web Development using Python in Hindi</h4>
+
+            <div>
+              <p>Navin Reddy</p>
+              <p>₹4000</p>
+              <span>live</span>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section aria-label="hardword-banner">
+      <div class="phns-banner">
+        <h1>Pure <span>Hardwork</span>, No Shortcuts!</h1>
+        <div class="phns-cards">
+          <div>
+            <span><h4>400+</h4>
+              <p>Different Cources</p></span>
+            <img src="https://ineuron.ai/images/landing-page/statistics/books-icon.svg" alt="">
+          </div>
+          <div>
+            <span><h4>400000+</h4>
+              <p>Students Enrolled</p></span>
+            <img src="https://ineuron.ai/images/landing-page/statistics/student-iocn.svg" alt="">
+          </div>
+          <div>
+            <span><h4>10000+</h4>
+              <p>Successful Transition</p></span>
+            <img src="https://ineuron.ai/images/landing-page/statistics/credit-card-icon.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section aria-label="hall-of-fame">
+    <div class="fame-banner">
+      <h1>Hall of <span>fame</span></h1>
+      <div class="fame-cards">
+        <div class="fame-card">
+          <img src="./assets/hall-of-fame/shrivatsa.jpeg" alt="">
+          <h4>Shrivatsa G</h4>
+          <p>ECOLAB, trainee software developer
+          </p>
+          <span><a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a></span>
+        </div>
+        <div class="fame-card">
+          <img src="./assets/hall-of-fame/AkashB.jpeg" alt="">
+          <h4>Aakash B</h4>
+          <p>Amazon,Software Development Engineer 1
+          </p>
+          <span><a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a></span>
+        </div>
+        <div class="fame-card">
+          <img src="./assets/hall-of-fame/sameer.jpeg" alt="">
+          <h4>Sameer Kumar</h4>
+          <p>Bajaj Finserv, Data Scientist
+          </p>
+          <span><a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section aria-label="archievrs-banner">
+      <div class="archievrs-banner">
+        <h1>Our Achiever’s Work with</h1>
+        <span><img src="https://ineuron.ai/images/landing-page/companies/wipro.png" alt="">
+          <img src="https://ineuron.ai/images/landing-page/companies/affine.png" alt="">
+          <img src="https://ineuron.ai/images/landing-page/companies/mindtree.png" alt="">
+          <img src="https://ineuron.ai/images/landing-page/companies/wellnesys.png" alt="">
+          <!-- <img src="https://ineuron.ai/images/landing-page/companies/geekyants.png" alt=""> -->
+          <!-- <img src="https://ineuron.ai/images/landing-page/companies/zensar.png" alt=""> -->
+          <img src="https://ineuron.ai/images/landing-page/companies/freshworks.png" alt="">
+        </span>
+      </div>
+    </section>
+
+    <section aria-label="footer">
+      <div class="footer">
+        <div class="footer-container-l">
+          <h1>Tech Neuron</h1>
+          <ul class="list">
+            <li>200+ Cources</li>
+            <li>500+ Projects</li>
+            <li>Raise your demand option</li>
+            
+          </ul>
+          <button class="footer-checkout">CheckOut</button>
+        </div>
+        <div>
+          <img src="./assets/ineuron-logo-white.png" alt="">
+          <div class="footer-detail">
+            <div><h4 class="address">Address</h4>
+              <p>17th Floor tower A Brigade Signature Towers, Sannatammanahalli, Bengaluru, Karnataka 562129</p>
+            </div>
+            <div>
+              <h4>Company</h4>
+              <ul>
+                <li>About us</li>
+                <li>Hack-A-Thon</li>
+                <li>Job guarantee</li>
+                <li>Privacy Policy</li>
+              </ul>
+              
+            </div>
+            <div>
+              <h4>Products</h4>
+              <ul>
+                <li><a href="https://jobs.ineuron.ai/">Job Portal</a></li>
+                <li><a href="https://internship.ineuron.ai/">Internship Portal</a></li>
+                <li><a href="">Become an affiliate</a></li>
+                <li><a href="">Hall of fame</a></li>
+              </ul>
+            </div>
+            <div><h4 class="social-media">Social Media</h4>
+              <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+              </div></div>
+          </div>
+          <hr>
+            <div class="bottom_text">
+              <span class="copyright_text">Copyright © 2022 All rights reserved.</span>
+              <span class="designedBy">
+                Designed with ❤️ by <a href="https://www.instagram.com/_cstej/">_cstej</a>
+              </span>
+            </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
